@@ -1,0 +1,55 @@
+package android.support.v4.app; class ac { void a() { int a;
+a=0;// .class final Landroid/support/v4/app/ac;
+a=0;// .super Landroid/transition/Transition$EpicenterCallback;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field final synthetic a:Landroid/support/v4/app/ae;
+a=0;// 
+a=0;// .field private b:Landroid/graphics/Rect;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method constructor <init>(Landroid/support/v4/app/ae;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     iput-object p1, p0, Landroid/support/v4/app/ac;->a:Landroid/support/v4/app/ae;
+a=0;// 
+a=0;//     invoke-direct {p0}, Landroid/transition/Transition$EpicenterCallback;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Landroid/support/v4/app/ac;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public final onGetEpicenter(Landroid/transition/Transition;)Landroid/graphics/Rect;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ac;->b:Landroid/graphics/Rect;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/graphics/Rect;);
+a=0;//     if-nez v0, :cond_0
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ac;->a:Landroid/support/v4/app/ae;
+a=0;// 
+a=0;//     iget-object v0, v0, Landroid/support/v4/app/ae;->a:Landroid/view/View;
+a=0;// 
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ac;->a:Landroid/support/v4/app/ae;
+a=0;// 
+a=0;//     iget-object v0, v0, Landroid/support/v4/app/ae;->a:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {v0}, Landroid/support/v4/app/z;->b(Landroid/view/View;)Landroid/graphics/Rect;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iput-object v0, p0, Landroid/support/v4/app/ac;->b:Landroid/graphics/Rect;
+a=0;// 
+a=0;//     :cond_0
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ac;->b:Landroid/graphics/Rect;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+}}

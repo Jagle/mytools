@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="612.0dip" android:layout_height="200.0dip" style="@style/ime_hint_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/other_logo" android:layout_width="124.0dip" android:layout_height="110.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/pluglogo" android:scaleType="centerInside" />
+    <TextView android:textSize="25.0sp" android:textColor="#ff000000" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/ime_hint" android:layout_toRightOf="@id/other_logo" android:layout_alignTop="@id/other_logo" />
+    <View android:id="@id/xian" android:background="#ff676767" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="30.0dip" android:layout_below="@id/text" />
+    <Button android:textSize="23.0sp" android:textColor="@drawable/selector_text" android:id="@id/setting_ok_btn" android:background="@drawable/selector_button" android:layout_width="132.0dip" android:layout_height="42.0dip" android:layout_marginBottom="15.0dip" android:text="@string/ime_ok" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

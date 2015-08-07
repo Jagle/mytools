@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lovesport.lc.AutoLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lovesport.lc.AutoFrameLayout android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.wukongtv.wkhelper.widget.WKImageSwitcher android:id="@id/is_home_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.lovesport.lc.AutoTextView android:textSize="18.0px" android:textColor="#ffffeb90" android:gravity="center" android:layout_gravity="bottom" android:id="@id/ios_update" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="78.0px" android:text="@string/ios_update" />
+        <com.lovesport.lc.AutoLinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0px" android:layout_marginBottom="20.0px">
+            <com.lovesport.lc.AutoImageView android:id="@id/network_icon" android:layout_width="34.0px" android:layout_height="34.0px" android:layout_marginLeft="40.0px" android:src="@drawable/ic_network" android:contentDescription="@string/app_name" />
+            <com.lovesport.lc.AutoTextView android:textSize="16.0px" android:id="@id/network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0px" android:singleLine="true" />
+            <com.lovesport.lc.AutoImageView android:id="@id/ip_icon" android:layout_width="34.0px" android:layout_height="34.0px" android:layout_marginLeft="32.0px" android:src="@drawable/ic_ip" android:contentDescription="@string/app_name" />
+            <com.lovesport.lc.AutoTextView android:textSize="16.0px" android:id="@id/ip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0px" android:singleLine="true" />
+            <com.lovesport.lc.AutoImageView android:layout_width="34.0px" android:layout_height="34.0px" android:layout_marginLeft="32.0px" android:src="@drawable/ic_version" android:contentDescription="@string/app_name" />
+            <com.lovesport.lc.AutoTextView android:textSize="16.0px" android:id="@id/versioncode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0px" android:singleLine="true" />
+        </com.lovesport.lc.AutoLinearLayout>
+    </com.lovesport.lc.AutoFrameLayout>
+    <com.lovesport.lc.AutoLinearLayout android:gravity="center_horizontal" android:layout_gravity="right" android:orientation="vertical" android:background="#ff38938d" android:paddingLeft="16.0px" android:paddingTop="64.0px" android:paddingRight="16.0px" android:paddingBottom="48.0px" android:clipChildren="false" android:clipToPadding="false" android:layout_width="324.0px" android:layout_height="fill_parent">
+        <com.lovesport.lc.AutoTextView android:textSize="24.0px" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_home_shaomiaotitle" android:singleLine="true" />
+        <com.lovesport.lc.AutoFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0px">
+            <com.lovesport.lc.AutoImageView android:layout_gravity="center" android:id="@id/qrcode" android:padding="10.0px" android:layout_width="260.0px" android:layout_height="260.0px" android:src="@drawable/qrcode" android:contentDescription="@string/app_name" />
+            <com.lovesport.lc.AutoImageView android:layout_gravity="center" android:layout_width="72.0px" android:layout_height="72.0px" android:src="@drawable/wukong" android:contentDescription="@string/app_name" />
+        </com.lovesport.lc.AutoFrameLayout>
+        <com.lovesport.lc.AutoImageView android:layout_gravity="left" android:id="@id/market" android:paddingLeft="26.0px" android:layout_width="260.0px" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:src="@drawable/mark" android:contentDescription="@string/app_name" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+        <com.lovesport.lc.AutoLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/home_device_select" android:background="@drawable/home_device_bg" android:paddingLeft="32.0px" android:paddingTop="8.0px" android:paddingRight="32.0px" android:paddingBottom="8.0px" android:focusable="true" android:layout_width="220.0px" android:layout_height="wrap_content">
+            <requestFocus />
+            <com.lovesport.lc.AutoTextView android:textSize="16.0px" android:ellipsize="end" android:id="@id/switcher" android:paddingLeft="8.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <com.lovesport.lc.AutoImageView android:layout_width="24.0px" android:layout_height="12.0px" android:layout_marginLeft="8.0px" android:src="@drawable/ic_arrow_up" android:contentDescription="@string/app_name" />
+        </com.lovesport.lc.AutoLinearLayout>
+    </com.lovesport.lc.AutoLinearLayout>
+</com.lovesport.lc.AutoLinearLayout>

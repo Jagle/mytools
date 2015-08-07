@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lovesport.lc.AutoRelativeLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lovesport.lc.AutoLinearLayout android:orientation="vertical" android:id="@id/buffering" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.lovesport.lc.AutoFrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.lovesport.lc.AutoProgressBar android:layout_gravity="center_horizontal" android:id="@id/buffering_spin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        </com.lovesport.lc.AutoFrameLayout>
+        <com.lovesport.lc.AutoTextView android:textSize="24.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/buffering_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pushscreen_loading" />
+    </com.lovesport.lc.AutoLinearLayout>
+</com.lovesport.lc.AutoRelativeLayout>

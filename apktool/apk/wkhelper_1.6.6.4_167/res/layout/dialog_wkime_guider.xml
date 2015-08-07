@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/ime_dialog_bgcolor" android:layout_width="450.0dip" android:layout_height="180.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="133.0dip">
+        <TextView android:textSize="26.0sp" android:textColor="@color/balloon_color" android:id="@id/tv_title_ime_dialog" android:layout_width="wrap_content" android:layout_height="33.0dip" android:layout_marginTop="5.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/ime_dialog_txtcolor" android:gravity="center" android:id="@id/tv_ime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="@string/ime_install_guider" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_width="450.0dip" android:layout_height="46.0dip">
+        <Button android:textSize="20.0sp" android:textColor="@drawable/selector_ime_btn_color" android:id="@id/btn_ime_guider_ok" android:background="@drawable/selector_ime_guider_button" android:layout_width="225.0dip" android:layout_height="46.0dip" android:text="@string/ok" android:layout_weight="1.0" />
+        <View android:id="@id/btn_ime_middle_line" android:background="@color/ime_dialog_btn_stroke_selected" android:layout_width="1.0dip" android:layout_height="46.0dip" />
+        <Button android:textSize="20.0sp" android:textColor="@drawable/selector_ime_btn_color" android:id="@id/btn_ime_guider_cancel" android:background="@drawable/selector_ime_guider_button" android:layout_width="224.0dip" android:layout_height="46.0dip" android:text="@string/sidebar_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

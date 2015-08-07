@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lovesport.lc.AutoTextView android:textSize="18.0px" android:textColor="@android:color/white" android:gravity="center" android:id="@android:id/text1" android:background="@drawable/home_devicelist_selected" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

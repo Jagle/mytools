@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lovesport.lc.AutoRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lovesport.lc.AutoLinearLayout android:background="@color/mediaplayer_controller" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.lovesport.lc.AutoTextView android:textSize="28.0px" android:gravity="center_vertical" android:id="@id/name" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="48.0px" android:layout_marginTop="24.0px" android:layout_weight="1.0" />
+    </com.lovesport.lc.AutoLinearLayout>
+    <com.lovesport.lc.AutoLinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="4.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.lovesport.lc.AutoLinearLayout android:orientation="horizontal" android:id="@id/timeline" android:background="@color/mediaplayer_controller" android:padding="48.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0px" android:layout_alignParentBottom="true">
+        <com.lovesport.lc.AutoTextView android:textSize="34.0px" android:textStyle="bold" android:layout_gravity="center" android:id="@id/time_current" android:paddingLeft="4.0px" android:paddingRight="16.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.lovesport.lc.AutoSeekBar android:id="@id/mediacontroller_progress" android:focusable="false" android:layout_width="0.0px" android:layout_height="48.0px" android:progressDrawable="@drawable/seekbar" android:thumb="@null" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+        <com.lovesport.lc.AutoTextView android:textSize="34.0px" android:textStyle="bold" android:layout_gravity="center" android:id="@id/time" android:paddingLeft="16.0px" android:paddingRight="4.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.lovesport.lc.AutoLinearLayout>
+    <com.lovesport.lc.AutoImageView android:background="@android:drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignTop="@id/timeline" />
+</com.lovesport.lc.AutoRelativeLayout>

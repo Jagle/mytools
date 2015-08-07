@@ -1,0 +1,52 @@
+package com.c.a.b; class n { void a() { int a;
+a=0;// .class final Lcom/c/a/b/n;
+a=0;// .super Ljava/lang/Object;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field final a:Ljava/lang/String;
+a=0;// 
+a=0;// .field final b:Ljava/lang/String;
+a=0;// 
+a=0;// .field final c:Lcom/c/a/b/e/a;
+a=0;// 
+a=0;// .field final d:Lcom/c/a/b/a/f;
+a=0;// 
+a=0;// .field final e:Lcom/c/a/b/d;
+a=0;// 
+a=0;// .field final f:Lcom/c/a/b/f/a;
+a=0;// 
+a=0;// .field final g:Lcom/c/a/b/f/b;
+a=0;// 
+a=0;// .field final h:Ljava/util/concurrent/locks/ReentrantLock;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>(Ljava/lang/String;Lcom/c/a/b/e/a;Lcom/c/a/b/a/f;Ljava/lang/String;Lcom/c/a/b/d;Lcom/c/a/b/f/a;Ljava/util/concurrent/locks/ReentrantLock;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/c/a/b/n;);
+a=0;//     iput-object p1, p0, Lcom/c/a/b/n;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object p2, p0, Lcom/c/a/b/n;->c:Lcom/c/a/b/e/a;
+a=0;// 
+a=0;//     iput-object p3, p0, Lcom/c/a/b/n;->d:Lcom/c/a/b/a/f;
+a=0;// 
+a=0;//     iput-object p5, p0, Lcom/c/a/b/n;->e:Lcom/c/a/b/d;
+a=0;// 
+a=0;//     iput-object p6, p0, Lcom/c/a/b/n;->f:Lcom/c/a/b/f/a;
+a=0;// 
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     iput-object v0, p0, Lcom/c/a/b/n;->g:Lcom/c/a/b/f/b;
+a=0;// 
+a=0;//     iput-object p7, p0, Lcom/c/a/b/n;->h:Ljava/util/concurrent/locks/ReentrantLock;
+a=0;// 
+a=0;//     iput-object p4, p0, Lcom/c/a/b/n;->b:Ljava/lang/String;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+}}

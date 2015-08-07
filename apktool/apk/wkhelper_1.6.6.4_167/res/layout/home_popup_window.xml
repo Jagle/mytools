@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lovesport.lc.AutoLinearLayout android:orientation="vertical" android:background="@drawable/home_popup_bk" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lovesport.lc.AutoView android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="56.0px" />
+    <com.lovesport.lc.AutoListView android:id="@id/home_popup_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:divider="@android:color/white" android:dividerHeight="1.0px" android:overScrollMode="never" />
+</com.lovesport.lc.AutoLinearLayout>

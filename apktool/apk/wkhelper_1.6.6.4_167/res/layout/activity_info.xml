@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/device_info_model" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_host" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_adb" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_root" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_control" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_plugin" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_net" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_channel" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_storage_title" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_storage_detail1" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_storage_detail2" layout="@layout/device_info_item" />
+        <include android:id="@id/device_info_storage_detail3" layout="@layout/device_info_item" />
+        <RelativeLayout android:background="#ffe6e6fa" android:paddingLeft="40.0dip" android:paddingTop="10.0dip" android:paddingRight="40.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+            <Button android:id="@id/btn_start_rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_rl_log" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

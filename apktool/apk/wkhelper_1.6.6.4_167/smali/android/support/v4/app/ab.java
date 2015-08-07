@@ -1,0 +1,186 @@
+package android.support.v4.app; class ab { void a() { int a;
+a=0;// .class final Landroid/support/v4/app/ab;
+a=0;// .super Ljava/lang/Object;
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Landroid/view/ViewTreeObserver$OnPreDrawListener;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field final synthetic a:Landroid/view/View;
+a=0;// 
+a=0;// .field final synthetic b:Landroid/support/v4/app/af;
+a=0;// 
+a=0;// .field final synthetic c:Ljava/util/Map;
+a=0;// 
+a=0;// .field final synthetic d:Ljava/util/Map;
+a=0;// 
+a=0;// .field final synthetic e:Landroid/transition/Transition;
+a=0;// 
+a=0;// .field final synthetic f:Ljava/util/ArrayList;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method constructor <init>(Landroid/view/View;Landroid/support/v4/app/af;Ljava/util/Map;Ljava/util/Map;Landroid/transition/Transition;Ljava/util/ArrayList;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     iput-object p1, p0, Landroid/support/v4/app/ab;->a:Landroid/view/View;
+a=0;// 
+a=0;//     iput-object p2, p0, Landroid/support/v4/app/ab;->b:Landroid/support/v4/app/af;
+a=0;// 
+a=0;//     iput-object p3, p0, Landroid/support/v4/app/ab;->c:Ljava/util/Map;
+a=0;// 
+a=0;//     iput-object p4, p0, Landroid/support/v4/app/ab;->d:Ljava/util/Map;
+a=0;// 
+a=0;//     iput-object p5, p0, Landroid/support/v4/app/ab;->e:Landroid/transition/Transition;
+a=0;// 
+a=0;//     iput-object p6, p0, Landroid/support/v4/app/ab;->f:Ljava/util/ArrayList;
+a=0;// 
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Landroid/support/v4/app/ab;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public final onPreDraw()Z
+a=0;//     .locals 5
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->a:Landroid/view/View;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     invoke-virtual {v0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->b:Landroid/support/v4/app/af;
+a=0;// 
+a=0;//     invoke-interface {v0}, Landroid/support/v4/app/af;->a()Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v2
+a=0;// 
+a=0;//     #v2=(Reference,Landroid/view/View;);
+a=0;//     if-eqz v2, :cond_2
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->c:Ljava/util/Map;
+a=0;// 
+a=0;//     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-nez v0, :cond_1
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->d:Ljava/util/Map;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/util/Map;);
+a=0;//     invoke-static {v0, v2}, Landroid/support/v4/app/z;->a(Ljava/util/Map;Landroid/view/View;)V
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->d:Ljava/util/Map;
+a=0;// 
+a=0;//     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iget-object v1, p0, Landroid/support/v4/app/ab;->c:Ljava/util/Map;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/util/Map;);
+a=0;//     invoke-interface {v1}, Ljava/util/Map;->values()Ljava/util/Collection;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-interface {v0, v1}, Ljava/util/Set;->retainAll(Ljava/util/Collection;)Z
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->c:Ljava/util/Map;
+a=0;// 
+a=0;//     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+a=0;// 
+a=0;//     move-result-object v3
+a=0;// 
+a=0;//     :cond_0
+a=0;//     :goto_0
+a=0;//     #v3=(Reference,Ljava/util/Iterator;);v4=(Conflicted);
+a=0;//     invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-eqz v0, :cond_1
+a=0;// 
+a=0;//     invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/Object;);
+a=0;//     check-cast v0, Ljava/util/Map$Entry;
+a=0;// 
+a=0;//     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     check-cast v1, Ljava/lang/String;
+a=0;// 
+a=0;//     iget-object v4, p0, Landroid/support/v4/app/ab;->d:Ljava/util/Map;
+a=0;// 
+a=0;//     #v4=(Reference,Ljava/util/Map;);
+a=0;//     invoke-interface {v4, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     check-cast v1, Landroid/view/View;
+a=0;// 
+a=0;//     if-eqz v1, :cond_0
+a=0;// 
+a=0;//     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Ljava/lang/String;
+a=0;// 
+a=0;//     invoke-virtual {v1, v0}, Landroid/view/View;->setTransitionName(Ljava/lang/String;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     :cond_1
+a=0;//     #v0=(Boolean);v1=(Conflicted);v3=(Conflicted);v4=(Conflicted);
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->e:Landroid/transition/Transition;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/transition/Transition;);
+a=0;//     if-eqz v0, :cond_2
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->f:Ljava/util/ArrayList;
+a=0;// 
+a=0;//     invoke-static {v0, v2}, Landroid/support/v4/app/z;->a(Ljava/util/ArrayList;Landroid/view/View;)V
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->f:Ljava/util/ArrayList;
+a=0;// 
+a=0;//     iget-object v1, p0, Landroid/support/v4/app/ab;->d:Ljava/util/Map;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/util/Map;);
+a=0;//     invoke-interface {v1}, Ljava/util/Map;->values()Ljava/util/Collection;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->removeAll(Ljava/util/Collection;)Z
+a=0;// 
+a=0;//     iget-object v0, p0, Landroid/support/v4/app/ab;->e:Landroid/transition/Transition;
+a=0;// 
+a=0;//     iget-object v1, p0, Landroid/support/v4/app/ab;->f:Ljava/util/ArrayList;
+a=0;// 
+a=0;//     invoke-static {v0, v1}, Landroid/support/v4/app/z;->b(Ljava/lang/Object;Ljava/util/ArrayList;)V
+a=0;// 
+a=0;//     :cond_2
+a=0;//     #v1=(Conflicted);
+a=0;//     const/4 v0, 0x1
+a=0;// 
+a=0;//     #v0=(One);
+a=0;//     return v0
+a=0;// .end method
+}}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Black" />
+    <style name="Theme.Cleanmanager" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.NoTitle" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Transparent" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="error" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="ime_candidates_style" parent="@android:style/Theme">
+        <item name="android:background">@drawable/ime_cands_container_bg</item>
+    </style>
+    <style name="ime_hint_style" parent="@android:style/Theme">
+        <item name="android:background">#ffe0e0e0</item>
+    </style>
+    <style name="ime_keyboard_container_style" parent="@android:style/Theme">
+        <item name="android:background">#feebecf8</item>
+    </style>
+</resources>

@@ -1,0 +1,74 @@
+package a.b; class f { void a() { int a;
+a=0;// .class final La/b/f;
+a=0;// .super Landroid/os/AsyncTask;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field final synthetic a:La/b/d;
+a=0;// 
+a=0;// .field private b:La/b/g;
+a=0;// 
+a=0;// .field private c:La/b/e;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>(La/b/d;La/b/g;La/b/e;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     iput-object p1, p0, La/b/f;->a:La/b/d;
+a=0;// 
+a=0;//     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,La/b/f;);
+a=0;//     iput-object p2, p0, La/b/f;->b:La/b/g;
+a=0;// 
+a=0;//     iput-object p3, p0, La/b/f;->c:La/b/e;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method protected final varargs synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
+a=0;//     .locals 3
+a=0;// 
+a=0;//     iget-object v0, p0, La/b/f;->a:La/b/d;
+a=0;// 
+a=0;//     #v0=(Reference,La/b/d;);
+a=0;//     iget-object v1, p0, La/b/f;->b:La/b/g;
+a=0;// 
+a=0;//     #v1=(Reference,La/b/g;);
+a=0;//     const-class v2, La/b/h;
+a=0;// 
+a=0;//     #v2=(Reference,Ljava/lang/Class;);
+a=0;//     invoke-virtual {v0, v1, v2}, La/b/d;->a(La/b/k;Ljava/lang/Class;)La/b/l;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, La/b/h;
+a=0;// 
+a=0;//     if-nez v0, :cond_0
+a=0;// 
+a=0;//     sget-object v0, La/b/i;->b:La/b/i;
+a=0;// 
+a=0;//     :goto_0
+a=0;//     return-object v0
+a=0;// 
+a=0;//     :cond_0
+a=0;//     iget-object v0, v0, La/b/h;->a:La/b/i;
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method protected final synthetic onPostExecute(Ljava/lang/Object;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method protected final onPreExecute()V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+}}

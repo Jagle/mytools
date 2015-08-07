@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false">
+        <color android:color="@color/button" />
+    </item>
+    <item android:state_pressed="true">
+        <color android:color="@color/button_pressed" />
+    </item>
+    <item android:state_focused="true">
+        <color android:color="@color/button_focused" />
+    </item>
+</selector>

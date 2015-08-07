@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/install_toast_pic_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_margin="16.0dip" android:src="@drawable/wukong" android:layout_centerVertical="true" />
+    <TextView android:id="@id/text" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/install_success" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" style="@android:style/TextAppearance.Large" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#e1303140" android:layout_width="360.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/prompt_image1" android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_marginTop="36.0dip" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/prompt_image2" android:layout_width="wrap_content" android:layout_height="480.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="48.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/qrcode" android:scaleType="centerInside" android:layout_below="@id/prompt_image1" android:layout_centerHorizontal="true" />
+    <Button android:textSize="35.0sp" android:textColor="#ffffffff" android:id="@id/prompt_NoLonger" android:background="@drawable/prompt_btn_select" android:nextFocusUp="@id/prompt_cancel" android:layout_width="fill_parent" android:layout_height="102.0dip" android:text="@string/sidebar_noprompt" android:layout_alignParentBottom="true" />
+    <Button android:textSize="35.0sp" android:textColor="#ffffffff" android:id="@id/prompt_cancel" android:background="@drawable/prompt_btn_select" android:nextFocusDown="@id/prompt_NoLonger" android:layout_width="fill_parent" android:layout_height="102.0dip" android:text="@string/sidebar_cancel" android:layout_above="@id/prompt_NoLonger">
+        <requestFocus />
+    </Button>
+</RelativeLayout>

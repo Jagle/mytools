@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/download_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/wukong" android:contentDescription="@string/app_name" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="51.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip">
+        <TextView android:textSize="16.0sp" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="220.0dip" android:singleLine="true" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title">
+            <TextView android:textSize="12.0sp" android:textColor="@color/download_normal" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toast_installing_app" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/download_normal" android:id="@id/wait_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:indeterminate="false" android:indeterminateDrawable="@color/download_progressbar" android:minWidth="150.0dip" android:layout_alignParentBottom="true" style="?android:attr/progressBarStyleHorizontal" />
+    </RelativeLayout>
+</LinearLayout>

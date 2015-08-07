@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lovesport.lc.AutoRelativeLayout android:background="#99232323" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lovesport.lc.AutoLinearLayout android:orientation="vertical" android:background="#fff9f9f9" android:layout_width="544.0px" android:layout_height="400.0px" android:layout_centerInParent="true">
+        <com.lovesport.lc.AutoRelativeLayout android:layout_width="fill_parent" android:layout_height="88.0px">
+            <com.lovesport.lc.AutoTextView android:textAppearance="?android:textAppearanceLarge" android:textSize="38.0px" android:id="@id/update_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </com.lovesport.lc.AutoRelativeLayout>
+        <com.lovesport.lc.AutoImageView android:id="@id/line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <com.lovesport.lc.AutoScorllView android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+            <com.lovesport.lc.AutoLinearLayout android:orientation="vertical" android:paddingLeft="44.0px" android:paddingTop="10.0px" android:paddingRight="44.0px" android:paddingBottom="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.lovesport.lc.AutoTextView android:textSize="24.0px" android:id="@id/umeng_update_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="2.0px" />
+            </com.lovesport.lc.AutoLinearLayout>
+        </com.lovesport.lc.AutoScorllView>
+        <com.lovesport.lc.AutoLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.lovesport.lc.AutoTextView android:textSize="20.0px" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/umeng_update_id_ok" android:paddingTop="10.0px" android:paddingBottom="10.0px" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:clickable="true" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="44.0px" android:layout_marginRight="5.0px" android:layout_marginBottom="10.0px" android:text="@string/UMUpdateNow" android:layout_weight="1.0">
+                <requestFocus />
+            </com.lovesport.lc.AutoTextView>
+            <com.lovesport.lc.AutoTextView android:textSize="20.0px" android:textColor="#ff555555" android:gravity="center_horizontal" android:id="@id/umeng_update_id_cancel" android:paddingTop="10.0px" android:paddingBottom="10.0px" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginRight="44.0px" android:layout_marginBottom="10.0px" android:text="@string/UMNotNow" android:layout_weight="1.0" />
+            <com.lovesport.lc.AutoProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0px" android:layout_margin="15.0px" android:progressDrawable="@drawable/progressbar" style="?android:attr/progressBarStyleHorizontal" />
+        </com.lovesport.lc.AutoLinearLayout>
+    </com.lovesport.lc.AutoLinearLayout>
+</com.lovesport.lc.AutoRelativeLayout>

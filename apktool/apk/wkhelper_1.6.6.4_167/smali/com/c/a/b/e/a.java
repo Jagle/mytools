@@ -1,0 +1,30 @@
+package com.c.a.b.e; class a { void a() { int a;
+a=0;// .class public interface abstract Lcom/c/a/b/e/a;
+a=0;// .super Ljava/lang/Object;
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract a()I
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract a(Landroid/graphics/Bitmap;)Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract a(Landroid/graphics/drawable/Drawable;)Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract b()I
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract c()I
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract d()Landroid/view/View;
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract e()Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract f()I
+a=0;// .end method
+}}

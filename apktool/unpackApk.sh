@@ -1,0 +1,1 @@
+java -jar ../apktool/apktool_2.0.0rc3.jar d -d $1

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.wukongtv.wkhelper" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.wukongtv.wkhelper.PLUGIN_CONTROL"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:icon="@drawable/wukong" android:label="@string/app_name" android:name="com.wukongtv.wkhelper.ServerApp" android:persistent="true" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.wukongtv.wkhelper.MainActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.wukongtv.wkhelper.ProxyActivity" android:theme="@style/Theme.Transparent"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.ProxyActivity1" android:theme="@style/Theme.Transparent"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.childlock.ChildLockActivity" android:theme="@style/Theme.NoTitle"/>
+        <service android:enabled="true" android:exported="true" android:name="com.wukongtv.wkhelper.RemoteService"/>
+        <activity android:name="com.wukongtv.wkhelper.WKWebView" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:label="@string/title_activity_install_plugin" android:name="com.wukongtv.wkhelper.controller.systemprocess.InstallPluginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.wukongtv.wkhelper.controller.masterkey.InstallMKPluginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.CleanCache.CleanCacheActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.sidebar.SideBarActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.PowerOffHintActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.pushscreen.PushScreenImageActivity" android:theme="@style/Theme.NoTitle"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.pushscreen.PushScreenNewActivity" android:theme="@style/Theme.NoTitle"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.pushscreen.PushScreenVideoActivity" android:theme="@style/Theme.NoTitle"/>
+        <activity android:name="com.wukongtv.wkhelper.InfoActivity" android:theme="@style/Theme.NoTitle"/>
+        <activity android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.controller.ime.WKImeHintDialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.controller.ime.WKImeConfirmDialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.wukongtv.wkhelper.receiver.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.umeng.update.net.DownloadingService" android:process=":DownloadingService"/>
+        <activity android:name="com.umeng.update.UpdateDialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="530704b856240b67d100458f"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.wukongtv.wkhelper.receiver.SystemEventReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="com.wukongtv.wkhelper.receiver.ImeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.INPUT_METHOD_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:label="@string/ime_name" android:name="com.wukongtv.wkhelper.ime.PinyinIME" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        </service>
+        <activity android:label="@string/app_name" android:launchMode="singleInstance" android:name="com.wukongtv.wkhelper.UmengActivity" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.wukongtv.wkupdate.lib.ConfirmActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="com.wukongtv.wkupdate.lib.UpdateService"/>
+        <activity android:name="com.lovesport.update.UpdateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    </application>
+</manifest>

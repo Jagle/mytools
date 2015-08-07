@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wukongtv.wkhelper.ime.CandidatesContainer android:orientation="horizontal" android:id="@id/candidates_container" android:layout_width="0.0dip" android:layout_height="0.0dip" style="@style/ime_candidates_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/arrow_left_btn" android:clickable="true" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+    <ImageButton android:id="@id/arrow_right_btn" android:clickable="true" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <ViewFlipper android:id="@id/candidate_flipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/arrow_right_btn" android:layout_toRightOf="@id/arrow_left_btn">
+        <view android:id="@id/candidate_view1" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.wukongtv.wkhelper.ime.CandidateView" />
+        <view android:id="@id/candidate_view2" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.wukongtv.wkhelper.ime.CandidateView" />
+    </ViewFlipper>
+</com.wukongtv.wkhelper.ime.CandidatesContainer>

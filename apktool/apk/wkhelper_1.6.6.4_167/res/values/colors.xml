@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="balloon_color">#ff000000</color>
+    <color name="button">#fff2f2f2</color>
+    <color name="button_focused">#ff88a4ff</color>
+    <color name="button_pressed">#ff88a4ff</color>
+    <color name="cache_clean_text_color">#ff03e9fe</color>
+    <color name="calorie_text_color">#ff00e7fc</color>
+    <color name="caloriebgcolor">#ff3ca855</color>
+    <color name="composing_color_idle">#ff777777</color>
+    <color name="contentTextColor">#ff555555</color>
+    <color name="defaultColor">#ff706060</color>
+    <color name="download_faild">#ffb98541</color>
+    <color name="download_normal">#ff7b7b7b</color>
+    <color name="download_progressbar">#ff4abdff</color>
+    <color name="download_success">#ff34bc80</color>
+    <color name="footnote_color">#ff343233</color>
+    <color name="ime_dialog_bgcolor">#ffffffff</color>
+    <color name="ime_dialog_btn_bgcolor">#fff7f7f7</color>
+    <color name="ime_dialog_btn_bgcolor_selected">#ffebebf8</color>
+    <color name="ime_dialog_btn_stroke">#ffb2b2b2</color>
+    <color name="ime_dialog_btn_stroke_selected">#ff7d81ff</color>
+    <color name="ime_dialog_txtcolor">#ff666666</color>
+    <color name="ime_dialog_txtcolor_selected">#ff7d81ff</color>
+    <color name="label_color">#ffffffff</color>
+    <color name="line">#ff88a4ff</color>
+    <color name="mediaplayer_controller">#af080503</color>
+    <color name="processColor">#ff2ac64e</color>
+    <color name="progress">#ff88a4ff</color>
+    <color name="progress_bg">#ff9d9e9d</color>
+    <color name="recommended_candidate_color">#ffe35900</color>
+    <color name="secondaryProgress">#ff88a4ff</color>
+    <color name="tb_munion_item_force">#ffe3e3e3</color>
+    <color name="titleColor">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="wukongprogressbarbg">#99000000</color>
+</resources>

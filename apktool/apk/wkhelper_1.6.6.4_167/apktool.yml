@@ -1,0 +1,15 @@
+version: 2.0.0-RC3
+apkFileName: wkhelper_1.6.6.4_167.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '11'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '167'
+  versionName: 1.6.6.4
+compressionType: false
